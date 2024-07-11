@@ -1,0 +1,46 @@
+.navbar {
+  background-color: burlywood;
+}
+
+.avatar-conteiner {
+  background-color: darkgoldenrod;
+}
+
+h1 {
+  font-size: 50px !important;
+  color: wheat !important;
+}
+
+.job-titles {
+  font-size: 22px !important;
+  color: bisque;
+}
+
+h2 {
+  font-size: 40px !important;
+  font-weight: 700 !important;
+}
+
+.portfolio-image {
+  border-radius: 10px !important;
+}
+
+.about-conteiner {
+  background-color: darkgoldenrod;
+}
+
+h3 {
+  font-size: 40px !important;
+}
+
+.btn-padding {
+  padding: 1rem 1.75rem !important;
+}
+
+.footer-conteiner {
+  background-color: burlywood;
+}
+
+h5 {
+  font-size: 40px !important;
+}

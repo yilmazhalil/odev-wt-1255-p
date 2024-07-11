@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrap Project</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg pt-3 pb-3">
+        <div class="container">
+          <a class="navbar-brand fs-3 fw-medium" href="#">START BOOTSTRAP</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="avatar-conteiner px-5 py-5">
+      <div class="image-conteiner d-flex justify-content-center">
+        <img
+          class="img-fluid"
+          width="25%"
+          src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/avataaars.svg"
+          alt="avatar image"
+        />
+      </div>
+      <div class="information">
+        <h1 class="name-heading text-center mb-1">YILMAZ HALİL GÜNDAŞ</h1>
+        <p class="job-titles text-center">
+          Dijital Pazarlama Uzmanı - Fullstack Developer
+        </p>
+      </div>
+    </div>
+
+    <div id="portfolio" class="portfolio-conteiner my-5 mx-5">
+      <h2 class="text-center">PORTFOLIO</h2>
+      <div class="row">
+        <div class="col-4 my-3">
+          <img
+            src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/cabin.png"
+            class="img-fluid portfolio-image"
+            alt="cabin"
+          />
+        </div>
+        <div class="col-4 my-3">
+          <img
+            src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/cake.png"
+            class="img-fluid portfolio-image"
+            alt="cake"
+          />
+        </div>
+        <div class="col-4 my-3">
+          <img
+            src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/circus.png"
+            class="img-fluid portfolio-image"
+            alt="circus"
+          />
+        </div>
+        <div class="col-4 my-3">
+          <img
+            src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/game.png"
+            class="img-fluid portfolio-image"
+            alt="game"
+          />
+        </div>
+        <div class="col-4 my-3">
+          <img
+            src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/safe.png"
+            class="img-fluid portfolio-image"
+            alt="safe"
+          />
+        </div>
+        <div class="col-4 my-3">
+          <img
+            src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/submarine.png"
+            class="img-fluid portfolio-image"
+            alt="submarine"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="about-conteiner py-5 px-5">
+      <h3 id="about" class="text-center">HAKKIMDA</h3>
+      <div class="row">
+        <div class="col-lg-4 ms-auto">
+          Siyaset Bilimi ve Kamu Yönetimi Mezunu
+        </div>
+        <div class="col-lg-4 me-auto">
+          Fullstack Developer olma yolunda bir Dijital Pazarlama Uzmanı
+        </div>
+        <div class="text-center">
+          <a
+            href="https://www.linkedin.com/in/yilmazhalilgundas/"
+            class="btn btn-outline-light btn-padding text-center fs-4"
+          >
+            LinkedIn Profili
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-conteiner pt-5 pb-4">
+        <div class="conteiner">
+          <div class="row">
+            <div class="col-4 text-center">
+              <h4 class="text-white py-4">KONUM</h4>
+              <p class="text-white fs-5">ARDAHAN</p>
+            </div>
+            <div class="col-4 text-center">
+              <h4 class="text-white py-4">AROUND THE WEB</h4>
+              <p class="text-white fs-5">Web Öğreniyorum!</p>
+            </div>
+            <div class="col-4 text-center">
+              <h4 class="text-white py-4">FREELANCER HAKKINDA</h4>
+              <p class="text-white fs-5">
+                Başarılı olma yolunda!<a
+                  href="https://www.linkedin.com/in/yilmazhalilgundas/"
+                  >Freelancer'a Ulaşmak İçin Tıkla!</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="bg-dark copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Yılmaz Halil Gündaş &copy; OnlyJS 2024</small>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
